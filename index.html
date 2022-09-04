@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Aurys’s Bakery</title>
+</head>
+
+<body>
+    <section class="container content-section">
+        <h2 class="section-header">PRODUCTOS</h2>
+        <div class="shop-items">
+            <!-- Comentar desde aquí -->
+            <div class="shop-item">
+                <span class="shop-item-title">Brownie Chocolate</span>
+                <img class="shop-item-image" src="./Images/brownie-de-chocolate.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Brownie Chocolate Blanco</span>
+                <img class="shop-item-image" src="./Images/brownie-de-chocolate-blanco.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Cafe Canela</span>
+                <img class="shop-item-image" src="./Images/cafe canela.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$4.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Flan</span>
+                <img class="shop-item-image" src="./Images/flan-spanish-creme-caramel-CG1_4648.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$7.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+            <!-- hasta aquí -->
+        </div>
+    </section>
+    <section class="container content-section shoppingCartItemContainer">
+        <h2 class="section-header">CARRITO</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRECIO</span>
+            <span class="cart-quantity cart-header cart-column">CANTIDAD</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"></span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">COMPRAR</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
